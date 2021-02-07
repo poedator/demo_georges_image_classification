@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "demo_georges_image_classification"
+version = "0.1.0"
+description = "Image classification project demo"
+authors = ["Poedator <24738311+poedator@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.3"
+pandas = "^1.2.1"
+matplotlib = "^3.3.4"
+Pillow = "^8.1.0"
+tqdm = "^4.56.0"
+jupyter = "^1.0.0"
+
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
